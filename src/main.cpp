@@ -2006,7 +2006,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
 
         // Genesis block
-        const char* pszTimestamp = "June 17 2017, US and Japan launch air-and-sea search for 7 missing US sailors";
+        const char* pszTimestamp = "Asia opens mixed after Fed raises interest rates";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
