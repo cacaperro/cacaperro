@@ -77,7 +77,7 @@ public:
     {
         if (RPCConsole->objectName().isEmpty())
             RPCConsole->setObjectName(QString::fromUtf8("RPCConsole"));
-        RPCConsole->resize(740, 450);
+        RPCConsole->setgeometry(QRect(0, 0, 740, 450));
         verticalLayout_2 = new QVBoxLayout(RPCConsole);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         tabWidget = new QTabWidget(RPCConsole);

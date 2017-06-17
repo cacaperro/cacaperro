@@ -69,7 +69,7 @@ public:
     {
         if (SignVerifyMessageDialog->objectName().isEmpty())
             SignVerifyMessageDialog->setObjectName(QString::fromUtf8("SignVerifyMessageDialog"));
-        SignVerifyMessageDialog->resize(700, 380);
+        SignVerifyMessageDialog->setgeometry(QRect(0, 0, 700, 380));
         SignVerifyMessageDialog->setModal(true);
         verticalLayout = new QVBoxLayout(SignVerifyMessageDialog);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));

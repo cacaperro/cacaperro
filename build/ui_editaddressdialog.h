@@ -38,7 +38,7 @@ public:
     {
         if (EditAddressDialog->objectName().isEmpty())
             EditAddressDialog->setObjectName(QString::fromUtf8("EditAddressDialog"));
-        EditAddressDialog->resize(457, 126);
+        EditAddressDialog->setgeometry(QRect(0, 0, 457, 126));
         verticalLayout = new QVBoxLayout(EditAddressDialog);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         formLayout = new QFormLayout();
