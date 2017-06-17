@@ -56,7 +56,7 @@ public:
     {
         if (MiningPage->objectName().isEmpty())
             MiningPage->setObjectName(QString::fromUtf8("MiningPage"));
-        MiningPage->setgeometry(QRect(0, 0, 780, 636));
+        MiningPage->resize(780, 636);
         gridLayout = new QGridLayout(MiningPage);
         gridLayout->setSpacing(6);
         gridLayout->setContentsMargins(11, 11, 11, 11);

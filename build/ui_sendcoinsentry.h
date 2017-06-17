@@ -44,7 +44,7 @@ public:
     {
         if (SendCoinsEntry->objectName().isEmpty())
             SendCoinsEntry->setObjectName(QString::fromUtf8("SendCoinsEntry"));
-        SendCoinsEntry->setgeometry(QRect(0, 0, 729, 136));
+        SendCoinsEntry->resize(729, 136);
         SendCoinsEntry->setFrameShape(QFrame::StyledPanel);
         SendCoinsEntry->setFrameShadow(QFrame::Sunken);
         gridLayout = new QGridLayout(SendCoinsEntry);

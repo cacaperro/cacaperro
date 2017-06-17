@@ -85,7 +85,7 @@ public:
     {
         if (OptionsDialog->objectName().isEmpty())
             OptionsDialog->setObjectName(QString::fromUtf8("OptionsDialog"));
-        OptionsDialog->setgeometry(QRect(0, 0, 540, 380));
+        OptionsDialog->resize(540, 380);
         OptionsDialog->setModal(true);
         verticalLayout = new QVBoxLayout(OptionsDialog);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));

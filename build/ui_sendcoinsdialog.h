@@ -47,7 +47,7 @@ public:
     {
         if (SendCoinsDialog->objectName().isEmpty())
             SendCoinsDialog->setObjectName(QString::fromUtf8("SendCoinsDialog"));
-        SendCoinsDialog->setgeometry(QRect(0, 0, 686, 217));
+        SendCoinsDialog->resize(686, 217);
         verticalLayout = new QVBoxLayout(SendCoinsDialog);
         verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
         scrollArea = new QScrollArea(SendCoinsDialog);
@@ -55,7 +55,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName(QString::fromUtf8("scrollAreaWidgetContents"));
-        scrollAreaWidgetContents->setgeometry(QRect(0, 0, 666, 165));
+        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 666, 165));
         verticalLayout_2 = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
         verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));

@@ -42,7 +42,7 @@ public:
     {
         if (AskPassphraseDialog->objectName().isEmpty())
             AskPassphraseDialog->setObjectName(QString::fromUtf8("AskPassphraseDialog"));
-        AskPassphraseDialog->setgeometry(QRect(0, 0, 598, 198));
+        AskPassphraseDialog->resize(598, 198);
         QSizePolicy sizePolicy(QSizePolicy::Preferred, QSizePolicy::Minimum);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
