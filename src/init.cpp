@@ -328,10 +328,10 @@ bool AppInit2()
     // ********************************************************* Step 2: parameter interactions
 
     fTestNet = GetBoolArg("-testnet");
-    // Keep irc seeding on by default for now.
+    // Don't keep irc seeding on by default for now.
 //    if (fTestNet)
 //    {
-        SoftSetBoolArg("-irc", true);
+        SoftSetBoolArg("-irc", false);
 //    }
 
     if (mapArgs.count("-bind")) {
