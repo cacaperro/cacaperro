@@ -7,6 +7,8 @@ Install dependencies
 --------------------
 	sudo apt-get install build-essential libboost-all-dev openssl-dev libdb++-dev libdb-dev git qt-sdk libminiupnpc-dev
 
+BerkeleyDB must be version 5.3.x
+
 Compile CLI
 -----------
 
