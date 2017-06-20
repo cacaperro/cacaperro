@@ -1,7 +1,7 @@
 Cacaperro (CACA)
 ===========
 
-###To compile on Linux (tested with Debian 8):
+To compile on Linux (tested with Debian 8):
 
 Install dependencies
 --------------------
