@@ -1,7 +1,18 @@
 Cacaperro (CACA)
 ===========
 
-[![Build Status](https://travis-ci.org/RazorLove/cacaperro.png?branch=master)](https://travis-ci.org/RazorLove/cacaperro)
+###To compile on Linux (tested with Debian 8):
 
-
-Scrypt Hashcash PoW Template
+##Install dependencies
+'''
+apt-get install build-essential libboost-all-dev openssl-dev libdb++-dev libdb-dev git qt-sdk libminiupnpc-dev
+'''
+##Compile CLI
+'''
+make -f makefile.unix USE_UPNP=-
+'''
+##Compile Qt client
+'''
+qmake "USE_UPNP=-" Cacaperro-qt.pro
+make
+'''
