@@ -236,7 +236,7 @@ SOURCES += src/qt/bitcoin.cpp src/qt/bitcoingui.cpp \
 
 RESOURCES += \
     src/qt/bitcoin.qrc \
-    mnt/cacaperro/src/qt/bitcoin.qrc
+    /mnt/cacaperro/src/qt/bitcoin.qrc
 
 FORMS += \
     src/qt/forms/sendcoinsdialog.ui \
