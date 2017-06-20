@@ -20,3 +20,8 @@ Compile Qt client
 	qmake "USE_UPNP=-" Cacaperro-qt.pro
 	make
 
+Don't forget to add cacaperro.chickenkiller.com to the cacaperro.conf file in the .cacaperro folder for the bootstrap:
+
+	addnode=cacaperro.chickenkiller.com
+
+If the file does not exist create it in YOURHOMEFOLDER/.cacaperro
